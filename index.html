@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JamaliStore</title>
+  <link rel="stylesheet" href="jjj.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#home" class="brand">JamaliStore</a>
+      <button id="menuToggle" class="menu-toggle" aria-label="Open navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav" id="siteNav">
+        <a href="#collections">Collections</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-content">
+        <div>
+          <p class="eyebrow">Online fashion and accessories</p>
+          <h1>Shop premium men&apos;s trousers, tees, shoes, bags, and accessories.</h1>
+          <p>Explore branded style, everyday essentials, and curated wardrobe pieces for confident dressing.</p>
+          <div class="hero-actions">
+            <a href="#collections" class="btn btn-primary">See Collections</a>
+          </div>
+          <p class="hero-notice">Free delivery for orders over TSh 150,000 · Easy returns · New arrivals every week</p>
+          <div class="brand-strip" aria-label="Brands we carry">
+            <span>Jordan</span>
+            <span>Nike</span>
+            <span>Adidas</span>
+            <span>Puma</span>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=900&q=80" alt="Man wearing fashion streetwear" />
+          <div class="hero-card">
+            <p>New arrivals for men</p>
+            <h2>Jordan sneakers, Nike bags, caps, and streetwear.</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="popular" id="popular">
+      <div class="container section-header">
+        <span class="section-label">Popular Goods</span>
+        <h2>Top picks</h2>
+        <p>Browse popular items our customers love.</p>
+      </div>
+      <div class="grid product-grid popular-grid" id="popularGrid">
+        <article class="product-card" data-name="Men's Trousers" data-category="trousers" data-images="https://images.unsplash.com/photo-1535914254981-b5012eebbd15?auto=format&fit=crop&w=900&q=80">
+          <div class="product-image"><img src="https://images.unsplash.com/photo-1535914254981-b5012eebbd15?auto=format&fit=crop&w=520&q=80" alt="Men's trousers"/></div>
+          <div class="product-info"><h3>Men's Trousers</h3><div class="price">TSh 45,000</div>
+            <p>Smart and casual trousers for daily wear.</p>
+            <div class="product-actions-row"><button class="btn btn-primary product-gallery">View gallery</button><button class="btn btn-secondary product-request">Request</button></div>
+          </div>
+        </article>
+
+        <article class="product-card" data-name="Shirts & T-Shirts" data-category="shirts" data-images="https://images.unsplash.com/photo-1520975911630-3fe4e97fd7f7?auto=format&fit=crop&w=900&q=80">
+          <div class="product-image"><img src="https://images.unsplash.com/photo-1520975911630-3fe4e97fd7f7?auto=format&fit=crop&w=520&q=80" alt="Shirts"/></div>
+          <div class="product-info"><h3>Shirts &amp; T-Shirts</h3><div class="price">From TSh 18,000</div>
+            <p>Casual and formal shirts plus everyday tees.</p>
+            <div class="product-actions-row"><button class="btn btn-primary product-gallery">View gallery</button><button class="btn btn-secondary product-request">Request</button></div>
+          </div>
+        </article>
+
+        <article class="product-card" data-name="Full Sets" data-category="fullsets" data-images="https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=900&q=80">
+          <div class="product-image"><img src="https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=520&q=80" alt="Full sets"/></div>
+          <div class="product-info"><h3>Full Sets</h3><div class="price">Various</div>
+            <p>Coordinated outfit sets for a ready look.</p>
+            <div class="product-actions-row"><button class="btn btn-primary product-gallery">View gallery</button><button class="btn btn-secondary product-request">Request</button></div>
+          </div>
+        </article>
+
+        <article class="product-card" data-name="Brand Shoes" data-category="shoes" data-images="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=900&q=80">
+          <div class="product-image"><img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=520&q=80" alt="Brand shoes"/></div>
+          <div class="product-info"><h3>Brand Shoes</h3><div class="price">From TSh 60,000</div>
+            <p>Jordan, Nike and other branded footwear.</p>
+            <div class="product-actions-row"><button class="btn btn-primary product-gallery">View gallery</button><button class="btn btn-secondary product-request">Request</button></div>
+          </div>
+        </article>
+
+        <article class="product-card" data-name="Sendle Shoes" data-category="sendle-shoes" data-images="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=80">
+          <div class="product-image"><img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=520&q=80" alt="Sendle shoes"/></div>
+          <div class="product-info"><h3>Sendle Shoes</h3><div class="price">From TSh 35,000</div>
+            <p>Comfort-focused casual and slip-on styles.</p>
+            <div class="product-actions-row"><button class="btn btn-primary product-gallery">View gallery</button><button class="btn btn-secondary product-request">Request</button></div>
+          </div>
+        </article>
+
+        <article class="product-card" data-name="Capes" data-category="capes" data-images="https://images.unsplash.com/photo-1520975911630-3fe4e97fd7f7?auto=format&fit=crop&w=900&q=80">
+          <div class="product-image"><img src="https://images.unsplash.com/photo-1520975911630-3fe4e97fd7f7?auto=format&fit=crop&w=520&q=80" alt="Capes"/></div>
+          <div class="product-info"><h3>Capes</h3><div class="price">From TSh 12,000</div>
+            <p>Stylish capes and headwear for every look.</p>
+            <div class="product-actions-row"><button class="btn btn-primary product-gallery">View gallery</button><button class="btn btn-secondary product-request">Request</button></div>
+          </div>
+        </article>
+
+        <article class="product-card" data-name="Wallets" data-category="wallets" data-images="https://images.unsplash.com/photo-1545263246-9d7f7a3f1b4f?auto=format&fit=crop&w=900&q=80">
+          <div class="product-image"><img src="https://images.unsplash.com/photo-1545263246-9d7f7a3f1b4f?auto=format&fit=crop&w=520&q=80" alt="Wallets"/></div>
+          <div class="product-info"><h3>Wallets</h3><div class="price">From TSh 8,000</div>
+            <p>Durable wallets and card holders for everyday use.</p>
+            <div class="product-actions-row"><button class="btn btn-primary product-gallery">View gallery</button><button class="btn btn-secondary product-request">Request</button></div>
+          </div>
+        </article>
+
+        <article class="product-card" data-name="Watches" data-category="watches" data-images="https://images.unsplash.com/photo-1517423440428-a5a00ad493e8?auto=format&fit=crop&w=900&q=80">
+          <div class="product-image"><img src="https://images.unsplash.com/photo-1517423440428-a5a00ad493e8?auto=format&fit=crop&w=520&q=80" alt="Watches"/></div>
+          <div class="product-info"><h3>Watches</h3><div class="price">From TSh 50,000</div>
+            <p>Stylish and classic timepieces for every budget.</p>
+            <div class="product-actions-row"><button class="btn btn-primary product-gallery">View gallery</button><button class="btn btn-secondary product-request">Request</button></div>
+          </div>
+        </article>
+
+        <article class="product-card" data-name="Belts" data-category="belts" data-images="https://images.unsplash.com/photo-1520975911630-3fe4e97fd7f7?auto=format&fit=crop&w=900&q=80">
+          <div class="product-image"><img src="https://images.unsplash.com/photo-1520975911630-3fe4e97fd7f7?auto=format&fit=crop&w=520&q=80" alt="Belts"/></div>
+          <div class="product-info"><h3>Belts</h3><div class="price">From TSh 10,000</div>
+            <p>Quality belts to complete your outfit.</p>
+            <div class="product-actions-row"><button class="btn btn-primary product-gallery">View gallery</button><button class="btn btn-secondary product-request">Request</button></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="collections" id="collections">
+      <div class="container section-header">
+        <span class="section-label">Categories</span>
+        <h2>Shop by category</h2>
+        <p>Find the perfect look with our premium fashion, footwear, and accessories.</p>
+      </div>
+      <div class="grid cards-grid">
+        <article class="card">
+          <span class="card-icon">👕</span>
+          <h3>Fashion Clothes</h3>
+          <p>Premium apparel for men—shirts, trousers, and stylish everyday outfits.</p>
+        </article>
+        <article class="card">
+          <span class="card-icon">👟</span>
+          <h3>Brand Shoes</h3>
+          <p>Jordan, Nike, and branded footwear for casual and streetwear looks.</p>
+        </article>
+        <article class="card">
+          <span class="card-icon">⌚</span>
+          <h3>Capes, Belts, Watches ...</h3>
+          <p>Accessories and finishing touches to elevate your outfit and style.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="highlights">
+      <div class="container section-header">
+        <span class="section-label">Why choose us</span>
+        <h2>Style, comfort, and service you can trust</h2>
+        <p>Discover premium gear, fast delivery, and dedicated support for every order.</p>
+      </div>
+      <div class="grid highlights-grid">
+        <article class="highlight-card">
+          <h3>Fast delivery</h3>
+          <p>Get your order quickly with reliable shipping across Tanzania.</p>
+        </article>
+        <article class="highlight-card">
+          <h3>Authentic brands</h3>
+          <p>We curate trusted labels and quality products for every style.</p>
+        </article>
+        <article class="highlight-card">
+          <h3>Easy support</h3>
+          <p>Need help? Our team is ready to assist with sizes, requests, and orders.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="container section-header">
+        <span class="section-label">About us</span>
+        <h2>Fashion meets performance</h2>
+        <p>We bring together top streetwear, branded shoes, bags, and accessories for modern men.</p>
+      </div>
+      <div class="grid about-grid">
+        <div>
+          <h3>Quality brands</h3>
+          <p>Our collection highlights Jordan, Nike, and premium streetwear designed for confidence and comfort.</p>
+        </div>
+        <div>
+          <h3>Fast style</h3>
+          <p>Easy browsing, clean design, and a shopping experience built for fashion-forward customers.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonial">
+      <div class="container testimonial-inner">
+        <div class="testimonial-copy">
+          <span class="section-label">Customers love us</span>
+          <h2>Seen as the best way to shop men&apos;s fashion nearby</h2>
+          <p>From everyday style to premium wardrobe pieces, shoppers trust us for honest prices and fast service.</p>
+        </div>
+        <article class="testimonial-card">
+          <p>“Jamal Fashion Shop has the perfect collection of casual trousers and branded sneakers. The packaging is neat and delivery was fast.”</p>
+          <footer>— Hamisi Mwinyi, Dar es Salaam</footer>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="contact">
+    <div class="container footer-inner">
+      <p>Jamal Fashion Shop — men&apos;s fashion, accessories, and branded gear.</p>
+      <p>Contact: jamaliswalehe60@gmail.com.com</p>
+    </div>
+  </footer>
+
+  <script src="jjj.js"></script>
+</body>
+</html>
